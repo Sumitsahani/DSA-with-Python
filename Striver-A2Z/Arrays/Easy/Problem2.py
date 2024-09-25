@@ -1,6 +1,7 @@
 # Second Largest Element in an Array without sorting
 def find_second_largest(arr): 
-    largest = second_largest = float('-inf') 
+    largest = float('-inf')
+    second_largest = float('-inf') 
     for num in arr:
         if num > largest:
             second_largest = largest
